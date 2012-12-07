@@ -1,0 +1,13 @@
+Singleton-Conf  a devops configuration pattern.
+
+Gilles Di Guglielmo et Dimitri Baeli from LesFurets.com devteam are suggesting to spend this session reviewing a simple pattern to avoid a dangerous situation even on small projects. 
+
+Tired to see Dev and Ops playing a ping-pong communication with production configuration parameters, at LesFurets.com we decided to force a single point where to declare all production variables.
+This has some huge benefits of allowing us to track the variable runtine setup, generate up to date documentation, dectect deprecated values, ... 
+
+Those how never heard something like this from a Dev - Ops discussion during a critical deployment are not concerned by this presentation :-)
+* Ops : Where and How do I set this new param-xxx for the server to start ?
+* Dev : RTFM ! (Which in face means : RTFC - read the fucking code ... which eventually is not accessible by the Ops) !
+* And the long discussion that follows, and ends with a change with a command line deep in the directory tree inside the application server installation (if not inside a curious .war file !)
+
+The presentation is based on Java but focused on presenting patterns and usages which can be implemented in any 'cool' language.
