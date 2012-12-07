@@ -11,3 +11,8 @@ Those how never heard something like this from a Dev - Ops discussion during a c
 * And the long discussion that follows, and ends with a change with a command line deep in the directory tree inside the application server installation (if not inside a curious .war file !)
 
 The presentation is based on Java but focused on presenting patterns and usages which can be implemented in any 'cool' language.
+
+Bio
+
+Gilles is a 10+ software developer working for various software vendors (ILOG, PrimaSolution, Courtanet) : graphic 2D librairy, rules engine, J2EE service platform, domain model code generation.
+He is currently software architect for the insurance comparison web site LesFurets.com. He loves to feel the fresh air of San Francisco and Belgium.
